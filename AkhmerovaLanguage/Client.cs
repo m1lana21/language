@@ -55,8 +55,17 @@ namespace AkhmerovaLanguage
             get
 
             {
-                
-                return ClientService.ToList().OrderByDescending(p => p.StartTime).First().StartTime.ToShortDateString();
+                if(ClientService.Count==0) return null;
+                else return ClientService.ToList().OrderByDescending(p => p.StartTime).First().StartTime.ToShortDateString();
+            }
+        }
+
+        public System.DateTime? MaxDate2
+        {
+            get
+            {
+                if (ClientService.Count == 0) return null;
+                else return ClientService.ToList().OrderByDescending(p => p.StartTime).First().StartTime;
             }
         }
 

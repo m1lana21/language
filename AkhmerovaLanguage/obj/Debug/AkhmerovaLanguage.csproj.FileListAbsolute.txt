@@ -25,3 +25,30 @@ D:\3 Курс\ИСП-31\Ахмерова\языковая школа\project\Akh
 D:\3 Курс\ИСП-31\Ахмерова\языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.csproj.CopyComplete
 D:\3 Курс\ИСП-31\Ахмерова\языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.exe
 D:\3 Курс\ИСП-31\Ахмерова\языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.pdb
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\AkhmerovaLanguage.exe.config
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\AkhmerovaLanguage.exe
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\AkhmerovaLanguage.pdb
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\EntityFramework.dll
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\EntityFramework.SqlServer.dll
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\EntityFramework.xml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\EntityFramework.SqlServer.xml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\bin\Debug\ru\EntityFramework.resources.dll
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.csproj.AssemblyReference.cache
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AddEditPage.g.cs
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\ClientPage.g.cs
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\MainWindow.g.cs
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\App.g.cs
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage_Content.g.cs
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage_MarkupCompile.cache
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage_MarkupCompile.lref
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\App.baml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AddEditPage.baml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\ClientPage.baml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\MainWindow.baml
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.g.resources
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.Properties.Resources.resources
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.csproj.GenerateResource.cache
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.csproj.CoreCompileInputs.cache
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\Akhmerov.8B9368FA.Up2Date
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.exe
+D:\ucheba\Языковая школа\project\AkhmerovaLanguage\obj\Debug\AkhmerovaLanguage.pdb
