@@ -54,7 +54,7 @@
                     Click="RightDirButton_Click"></Button>
         </StackPanel>
         
-            <ListView Grid.Row="1" x:Name="ClientListView">
+            <ListView Grid.Row="1" x:Name="ClientListView" d:ItemsSource="{d:SampleData ItemCount=5}">
             <ListView.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Удалить" Click="MenuItem_Click"></MenuItem>
@@ -116,8 +116,9 @@
                             <TextBlock Text=" | " FontSize="15"></TextBlock>
                             
                             <TextBlock Text="Всего посещений: " FontSize="15"></TextBlock>
-                            <TextBlock Text="{Binding arrivalcount}" FontSize="20"></TextBlock>
+                            <TextBlock Text="{Binding arrivalcount}" FontSize="15"></TextBlock>
                         </StackPanel>
+                        <Button x:Name="EditButton" HorizontalAlignment="Left" Content="Редактировать" Grid.Column="2" Grid.RowSpan="4" Click="EditButton_Click"></Button>
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>

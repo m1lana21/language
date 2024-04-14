@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|d:\\ucheba\\\u0440\u043F\u043C\\24\\akhmerovalanguage\\addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|solutionrelative:addeditpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|d:\\ucheba\\\u0440\u043F\u043C\\24\\akhmerovalanguage\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|solutionrelative:addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|d:\\ucheba\\\u0440\u043F\u043C\\24\\akhmerovalanguage\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|solutionrelative:client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,7 +34,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Client.cs",
+              "DocumentMoniker": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\Client.cs",
+              "RelativeDocumentMoniker": "Client.cs",
+              "ToolTip": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\Client.cs",
+              "RelativeToolTip": "Client.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:47:55.486Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AddEditPage.xaml",
               "DocumentMoniker": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\AddEditPage.xaml",
               "RelativeDocumentMoniker": "AddEditPage.xaml",
@@ -37,8 +67,17 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditPage.xaml.cs",
+              "DocumentMoniker": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\AddEditPage.xaml.cs",
+              "RelativeDocumentMoniker": "AddEditPage.xaml.cs",
+              "ToolTip": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\AddEditPage.xaml.cs",
+              "RelativeToolTip": "AddEditPage.xaml.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAAE8AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T17:56:53.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -47,10 +86,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
