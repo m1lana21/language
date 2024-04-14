@@ -20,7 +20,9 @@ namespace AkhmerovaLanguage
     /// </summary>
     public partial class AddEditPage : Page
     {
-        public AddEditPage()
+        private Client currentClient = new Client();
+
+        public AddEditPage(Client SelectedClient)
         {
             InitializeComponent();
         }

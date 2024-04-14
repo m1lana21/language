@@ -1,7 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ucheba\\\u042F\u0437\u044B\u043A\u043E\u0432\u0430\u044F \u0448\u043A\u043E\u043B\u0430\\project\\AkhmerovaLanguage\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|d:\\ucheba\\\u0440\u043F\u043C\\24\\akhmerovalanguage\\addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{58EAD699-F496-468D-862F-6D1A758B30AC}|AkhmerovaLanguage.csproj|solutionrelative:addeditpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -20,8 +25,20 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditPage.xaml",
+              "DocumentMoniker": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\AddEditPage.xaml",
+              "RelativeDocumentMoniker": "AddEditPage.xaml",
+              "ToolTip": "D:\\ucheba\\\u0420\u041F\u041C\\24\\AkhmerovaLanguage\\AddEditPage.xaml",
+              "RelativeToolTip": "AddEditPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-14T17:45:44.317Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Bookmark",
@@ -30,6 +47,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

@@ -21,8 +21,8 @@ namespace AkhmerovaLanguage
         {
             InitializeComponent();
             var currentClient = AkhmerovaLanguageEntities.GetContext().Client.ToList();
+            TBAllRecords.Text = " из " + currentClient.Count.ToString();
             ClientListView.ItemsSource = currentClient;
-            RecordsMax.Text = currentClient.Count.ToString();
             RecordsOnPageBox.SelectedIndex = 0;
             FilterBox.SelectedIndex = 0;
             SortBox.SelectedIndex = 0;
@@ -54,6 +54,7 @@ namespace AkhmerovaLanguage
                         MessageBox.Show(ex.Message.ToString());
                     }
                 }
+                UpdateClients();
             }
         }
 
@@ -76,9 +77,10 @@ namespace AkhmerovaLanguage
             else if (SortBox.SelectedIndex == 3) currentClient = currentClient.OrderByDescending(p => p.arrivalcount).ToList();
 
             TableList = currentClient;
-            RecordsCount.Text = currentClient.Count.ToString();
             ChangePage(0, 0);
             ClientListView.ItemsSource = currentClient;
+            //TBCount.Text = min.ToString();
+            TBCount.Text = currentClient.Count.ToString();
         }
 
         private void ChangePage(int direction, int? selectedPage)
@@ -92,10 +94,10 @@ namespace AkhmerovaLanguage
                     RecordsOnPage = 10;
                 break;
                 case 1:
-                    RecordsOnPage = 20;
+                    RecordsOnPage = 50;
                 break;
                 case 2:
-                    RecordsOnPage = 50;
+                    RecordsOnPage = 200;
                 break;
                 case 3:
                     RecordsOnPage = CountRecords;
@@ -184,14 +186,15 @@ namespace AkhmerovaLanguage
 
 
                 min = CurrentPage * RecordsOnPage + RecordsOnPage < CountRecords ? CurrentPage * RecordsOnPage + RecordsOnPage : CountRecords;
-                TBCount.Text = min.ToString();
-                TBAllRecords.Text = " из " + CountRecords.ToString();
+                
+                //TBAllRecords.Text = " из " + CountRecords.ToString();
 
                 ClientListView.ItemsSource = CurrentPageList;
                 ClientListView.Items.Refresh();
-                RecordsCount.Text = min.ToString();
+                //RecordsCount.Text = min.ToString();
 
             }
+            //UpdateClients();
         }
 
         private void RightDirButton_Click(object sender, RoutedEventArgs e)
@@ -227,6 +230,11 @@ namespace AkhmerovaLanguage
         private void FilterBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             UpdateClients();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AddEditPage(null));
         }
     }
 }
