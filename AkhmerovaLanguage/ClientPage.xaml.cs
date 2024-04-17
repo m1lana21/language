@@ -20,13 +20,13 @@ namespace AkhmerovaLanguage
         public ClientPage()
         {
             InitializeComponent();
+            
             var currentClient = AkhmerovaLanguageEntities.GetContext().Client.ToList();
-            TBAllRecords.Text = " из " + currentClient.Count.ToString();
+            //TBAllRecords.Text = " из " + currentClient.Count.ToString();
             ClientListView.ItemsSource = currentClient;
             RecordsOnPageBox.SelectedIndex = 0;
             FilterBox.SelectedIndex = 0;
             SortBox.SelectedIndex = 0;
-            var currentClientService = AkhmerovaLanguageEntities.GetContext().ClientService.ToList();
             UpdateClients();
         }
 
@@ -235,11 +235,25 @@ namespace AkhmerovaLanguage
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new AddEditPage(null));
+            UpdateClients();
         }
 
         private void EditButton_Click(object sender, RoutedEventArgs e)
         {
             Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Client));
+            UpdateClients();
+        }
+
+        private void ClientListView_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (Visibility == Visibility.Visible)
+            {
+                AkhmerovaLanguageEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                ClientListView.ItemsSource = AkhmerovaLanguageEntities.GetContext().Client.ToList();
+                UpdateClients();
+                var currentClient = AkhmerovaLanguageEntities.GetContext().Client.ToList();
+                TBAllRecords.Text = " из " + currentClient.Count.ToString();
+            }
         }
     }
 }

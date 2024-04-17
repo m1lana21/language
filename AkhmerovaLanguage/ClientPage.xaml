@@ -54,7 +54,7 @@
                     Click="RightDirButton_Click"></Button>
         </StackPanel>
         
-            <ListView Grid.Row="1" x:Name="ClientListView" d:ItemsSource="{d:SampleData ItemCount=5}">
+            <ListView Grid.Row="1" x:Name="ClientListView" IsVisibleChanged="ClientListView_IsVisibleChanged" d:ItemsSource="{d:SampleData ItemCount=5}">
             <ListView.ContextMenu>
                 <ContextMenu>
                     <MenuItem Header="Удалить" Click="MenuItem_Click"></MenuItem>
